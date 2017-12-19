@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: master-builders-dashboard
+  host: master-builders-dashboard
+  disk_quota: 1024M
+  services:
+  - master-builders-dashboard-cloudantNoSQLDB
